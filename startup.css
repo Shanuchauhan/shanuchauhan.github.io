@@ -1,0 +1,29 @@
+.tagline{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat',sans-serif;
+  color: #2F3F73;
+  flex-wrap: wrap;
+}
+body{
+  background-image: url(expo.jpg);
+  background-size:cover;
+}
+.shame{
+  display: flex;
+  justify-content: center;
+  margin-top: 79px;
+  font-family: 'Montserrat',sans-serif;
+}
+.btn{
+  transition: all 0.5s;
+}
+.btn:hover{
+  transform: scale(1.2);
+  background-color:#AA6439;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
